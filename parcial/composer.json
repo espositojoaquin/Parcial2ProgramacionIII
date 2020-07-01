@@ -1,0 +1,22 @@
+{
+    "name": "joquin/apirest",
+    "authors": [
+        {
+            "name": "joaquin",
+            "email": "espositojoaquin1998@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.1",
+        "illuminate/database": "^7.15",
+        "illuminate/events": "^7.16",
+        "firebase/php-jwt": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src",
+            "Config\\": "config"
+        }
+    }
+}
